@@ -30,13 +30,11 @@ result.to_csv("/home/toby/data/datasource/baostock/stock_basic.csv", encoding="g
 
 bs.logout()
 
-```
-返回数据说明
-参数名称	参数描述
-code	证券代码
-code_name	证券名称
-ipoDate	上市日期
-outDate	退市日期
-type	证券类型，其中1：股票，2：指数,3：其它
-status	上市状态，其中1：上市，0：退市
-```
+# 返回数据说明
+# 参数名称      参数描述
+# code  证券代码
+# code_name     证券名称
+# ipoDate       上市日期
+# outDate       退市日期
+# type  证券类型，其中1：股票，2：指数,3：其它
+# status        上市状态，其中1：上市，0：退市
