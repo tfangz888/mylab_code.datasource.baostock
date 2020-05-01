@@ -1,7 +1,7 @@
 import baostock as bs
 import pandas as pd
 
-print("python download_daily.py 201908")
+print("command example: python download_daily.py 201908")
 import sys
 date = sys.argv[1]
 
