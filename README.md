@@ -2,7 +2,7 @@
 
 如果pip运行的路径不对。运行一下命令hash -r
 
-# 运行steps
+# 顺序运行steps, 官方要求别同时运行多线程或多进程下载数据。
 1. python3 trade_dates.py  
 2. python3 stock_basic.py  
 3. python3 dividend.py 2020 有时会失败
